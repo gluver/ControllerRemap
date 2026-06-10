@@ -10,7 +10,6 @@ Load `codex-vibe-coding.amgp` in AntiMicroX while the controller is in Xbox Wire
 | B | Win+H |
 | X | Esc |
 | Y | Enter |
-| R | Tab |
 | ZR | PageDown |
 | ZL | Mouse button 4 |
 | Home | Mouse button 5 |
@@ -21,7 +20,6 @@ Load `codex-vibe-coding.amgp` in AntiMicroX while the controller is in Xbox Wire
 | D-pad Right | Right |
 | - | Ctrl+Z |
 | + | Ctrl+Enter |
-| Extra button 8 | Ctrl+Enter |
 
 Notes:
 

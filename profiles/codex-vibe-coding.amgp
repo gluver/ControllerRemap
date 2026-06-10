@@ -79,12 +79,7 @@
                 </triggerbutton>
             </trigger>
             <button index="6">
-                <slots>
-                    <slot>
-                        <code>0x1000001</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
+                <turbointerval>100</turbointerval>
             </button>
             <button index="7">
                 <slots>
@@ -150,18 +145,6 @@
                     </slot>
                     <slot>
                         <code>0x48</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="8">
-                <slots>
-                    <slot>
-                        <code>0x1000021</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                    <slot>
-                        <code>0x1000004</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>

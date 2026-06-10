@@ -21,9 +21,7 @@ Current calibrated mapping:
 | X | `Esc` | Cancel / No |
 | Y | `Enter` | Confirm / Yes |
 | - | `Ctrl+Z` | Undo |
-| R | `Tab` | Next focus |
 | + | `Ctrl+Enter` | Submit / send candidate |
-| Extra button 8 | `Ctrl+Enter` | Submit / send candidate |
 | ZR | `PageDown` | Scroll down |
 | ZL | Mouse button `4` | Browser/app back button |
 | Home | Mouse button `5` | Browser/app forward button |

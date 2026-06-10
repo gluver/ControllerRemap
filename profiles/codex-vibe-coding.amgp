@@ -60,7 +60,15 @@
                 <triggerbutton index="2">
                     <slots>
                         <slot>
-                            <code>0x1000017</code>
+                            <code>0x1000021</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>0x1000020</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>0x5d</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -104,7 +112,15 @@
             <button index="11">
                 <slots>
                     <slot>
-                        <code>0x1000016</code>
+                        <code>0x1000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x5b</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
@@ -207,7 +223,15 @@
                 <triggerbutton index="2">
                     <slots>
                         <slot>
-                            <code>0x1000017</code>
+                            <code>0x1000021</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>0x1000020</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>0x5d</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -248,7 +272,15 @@
             <button index="11">
                 <slots>
                     <slot>
-                        <code>0x1000016</code>
+                        <code>0x1000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x5b</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>

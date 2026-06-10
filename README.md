@@ -12,28 +12,25 @@ The project currently contains:
 
 Load `profiles/codex-vibe-coding.amgp` in AntiMicroX while the controller is connected in Xbox Wireless Controller mode.
 
-Current A/B/X/Y mapping:
+Current calibrated mapping:
 
-| Controller key | Action | Purpose |
+| Controller key | AntiMicroX output | Purpose |
 | --- | --- | --- |
 | A | `Ctrl+Shift+D` | Codex Dictate |
 | B | `Win+H` | Windows system dictation |
 | X | `Esc` | Cancel / No |
 | Y | `Enter` | Confirm / Yes |
+| - | `Ctrl+Z` | Undo |
+| R | `Tab` | Next focus |
+| + | `Ctrl+Enter` | Submit / send candidate |
+| Extra button 8 | `Ctrl+Enter` | Submit / send candidate |
+| ZR | `PageDown` | Scroll down |
+| ZL | Mouse button `4` | Browser/app back button |
+| Home | Mouse button `5` | Browser/app forward button |
+| Extra button 11 | `PageUp` | Scroll up |
+| D-pad | Arrow keys | Cursor or list movement |
 
-Other useful mappings:
-
-| Controller key | Action |
-| --- | --- |
-| L | `Shift+Tab` |
-| R | `Tab` |
-| ZL | `PageUp` |
-| ZR | `PageDown` |
-| D-pad | Arrow keys |
-| - | `Ctrl+Z` |
-| + | `Ctrl+Enter` |
-
-Note: this controller reports `+/-` differently in AntiMicroX than in the browser Gamepad API probe. The profile has been adjusted to the AntiMicroX-observed behavior: physical `-` maps through profile button index `5`, and physical `+` maps through profile button index `7`.
+Note: this profile is calibrated from AntiMicroX's observed button indices for this controller. Those indices do not line up cleanly with the browser Gamepad API probe, so the profile should be treated as the source of truth for AntiMicroX behavior.
 
 ## Load the AntiMicroX Profile
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gamecontroller configversion="19" appversion="3.6.1">
     <!--The SDL name for a joystick is included for informational purposes only.-->
-    <sdlname>Xbox 360 Controller</sdlname>
+    <sdlname>Xbox One S Controller</sdlname>
     <!--The Unique ID for a joystick is included for informational purposes only.-->
-    <uniqueID>0300b9695e0400008e020000000072001118654</uniqueID>
+    <uniqueID>030044f05e040000e0020000000072001118736</uniqueID>
     <profilename>Codex Vibe Coding</profilename>
     <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
     <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
@@ -72,8 +72,8 @@
                 <triggerbutton index="2">
                     <slots>
                         <slot>
-                            <code>0x1000016</code>
-                            <mode>keyboard</mode>
+                            <code>4</code>
+                            <mode>mousebutton</mode>
                         </slot>
                     </slots>
                 </triggerbutton>
@@ -101,7 +101,15 @@
             <button index="3">
                 <slots>
                     <slot>
-                        <code>0x1000004</code>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x1000016</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
@@ -158,10 +166,18 @@
                     </slot>
                 </slots>
             </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>5</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
             <button index="4">
                 <slots>
                     <slot>
-                        <code>0x1000000</code>
+                        <code>0x1000004</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>

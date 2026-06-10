@@ -10,20 +10,21 @@ Load `codex-vibe-coding.amgp` in AntiMicroX while the controller is in Xbox Wire
 | B | Win+H |
 | X | Esc |
 | Y | Enter |
-| L | Shift+Tab |
 | R | Tab |
-| ZL | PageUp |
 | ZR | PageDown |
+| ZL | Mouse button 4 |
+| Home | Mouse button 5 |
+| Extra button 11 | PageUp |
 | D-pad Up | Up |
 | D-pad Down | Down |
 | D-pad Left | Left |
 | D-pad Right | Right |
 | - | Ctrl+Z |
 | + | Ctrl+Enter |
+| Extra button 8 | Ctrl+Enter |
 
 Notes:
 
-- Browser Gamepad API button numbers are zero-based. AntiMicroX profile button indices are one-based, so browser `Button 0` is written as AntiMicroX `<button index="1">`.
-- This controller's `+/-` controls do not line up cleanly with the browser Gamepad API numbering inside AntiMicroX. This profile follows AntiMicroX-observed behavior: physical `-` uses profile button index `5`, and physical `+` uses profile button index `7`.
+- This profile is calibrated from AntiMicroX's observed button indices for this controller. Those indices do not line up cleanly with the browser Gamepad API probe, so the `.amgp` file is the source of truth for AntiMicroX behavior.
 - `Capture` is not mapped because it did not produce a Gamepad API event in Xbox mode.
 - If `Ctrl+C`, `Ctrl+V`, `Ctrl+Z`, or `Ctrl+Enter` do not trigger correctly, create one combined-key assignment in the AntiMicroX UI, save it, and compare the generated XML against this profile.

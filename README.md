@@ -33,6 +33,8 @@ Other useful mappings:
 | - | `Ctrl+Z` |
 | + | `Ctrl+Enter` |
 
+Note: this controller reports `+/-` differently in AntiMicroX than in the browser Gamepad API probe. The profile has been adjusted to the AntiMicroX-observed behavior: physical `-` maps through profile button index `5`, and physical `+` maps through profile button index `7`.
+
 ## Load the AntiMicroX Profile
 
 1. Install and open AntiMicroX.
